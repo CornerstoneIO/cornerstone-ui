@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import Cookies from 'js-cookie';
+// import Cookies from 'js-cookie';
 
 export function initialize(/*application*/) {
   Ember.$.ajaxPrefilter(function(options, originalOptions, jqXHR) {
