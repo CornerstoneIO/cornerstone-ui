@@ -1,7 +1,7 @@
 /* eslint no-extra-boolean-cast: 0 */
 import Ember from 'ember';
-import Promise from 'ember/rsvp';
-import Cookies from 'js-cookie';
+// import Promise from 'ember/rsvp';
+// import Cookies from 'js-cookie';
 
 export default Ember.Service.extend({
   currentUser: null,
